@@ -28,6 +28,9 @@
     },
     "logo": {
       "type": "string"
+    },
+    "gradient": {
+      "type": "string"
     }
   }
 }
