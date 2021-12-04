@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_roadmap_roadmaps",
+  "info": {
+    "name": "Roadmap",
+    "icon": "angle-double-down"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "sno": {
+      "type": "integer"
+    }
+  }
+}

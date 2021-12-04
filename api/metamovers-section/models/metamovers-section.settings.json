@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "metamovers_sections",
+  "info": {
+    "name": "metamoversSection"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "metamovers": {
+      "type": "component",
+      "repeatable": true,
+      "component": "metamovers.metamovers"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "roadmap_sections",
+  "info": {
+    "name": "roadmapSection",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "roadmap": {
+      "type": "component",
+      "repeatable": true,
+      "component": "roadmap.roadmap"
+    }
+  }
+}

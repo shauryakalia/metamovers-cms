@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_team_teams",
+  "info": {
+    "name": "team",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "bio": {
+      "type": "richtext"
+    },
+    "avatar": {
+      "type": "string"
+    },
+    "social": {
+      "type": "component",
+      "repeatable": false,
+      "component": "social.social"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/roadmap-section",
+      "handler": "roadmap-section.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/roadmap-section",
+      "handler": "roadmap-section.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/roadmap-section",
+      "handler": "roadmap-section.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

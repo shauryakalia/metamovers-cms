@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_metamovers_metamovers",
+  "info": {
+    "name": "metamovers",
+    "icon": "child"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "videourl": {
+      "type": "string"
+    }
+  }
+}

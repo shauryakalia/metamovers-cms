@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/metamovers-section",
+      "handler": "metamovers-section.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/metamovers-section",
+      "handler": "metamovers-section.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/metamovers-section",
+      "handler": "metamovers-section.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

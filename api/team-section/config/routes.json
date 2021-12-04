@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/team-section",
+      "handler": "team-section.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/team-section",
+      "handler": "team-section.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/team-section",
+      "handler": "team-section.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

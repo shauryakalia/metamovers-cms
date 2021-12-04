@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_social_socials",
+  "info": {
+    "name": "social",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "instagram": {
+      "type": "string"
+    },
+    "behance": {
+      "type": "string"
+    },
+    "facebook": {
+      "type": "string"
+    },
+    "youtube": {
+      "type": "string"
+    },
+    "twitter": {
+      "type": "string"
+    },
+    "spotify": {
+      "type": "string"
+    },
+    "soundcloud": {
+      "type": "string"
+    },
+    "tiktok": {
+      "type": "string"
+    },
+    "youtubesecond": {
+      "type": "string"
+    }
+  }
+}
